@@ -41,7 +41,7 @@
 
 ## Architecture
 
-### Microservices
+### Microservices Architecture
 ```
 Frontend (React)
     |
@@ -57,18 +57,24 @@ AI-Backend (Proxy + ML)
 - Multi-backend proxy architecture
 - Centralized AI/ML processing
 - Scalable microservices
-- Enterprise security
+- Enterprise-grade security
 - Real-time WebSocket communication
+- Intelligent request routing
 
 ---
 
-## Repositories
+## Private Repositories
 
-### Production Services
-- **[Heimdallr.Backend](https://github.com/Heimdallr-ai/Heimdallr.Backend)** - Core authentication & user management
-- **[Heimdallr.AI-Backend](https://github.com/Heimdallr-ai/Heimdallr.AI-Backend)** - AI/ML proxy & intelligence layer
-- **[Heimdallr.Trading.Backend](https://github.com/Heimdallr-ai/Heimdallr.Trading.Backend)** - Trading strategies & execution
-- **[Heimdallr.Frontend](https://github.com/Heimdallr-ai/Heimdallr.Frontend)** - User interface & dashboard
+This organization maintains **private repositories** for production code:
+
+- **Backend Services** - Authentication, user management, and core API
+- **AI/ML Backend** - Proxy layer and machine learning intelligence
+- **Trading Backend** - Trading strategies and execution engine
+- **Frontend Application** - User interface and dashboard
+
+All repositories follow strict security and development standards.
+
+Access is restricted to authorized team members only.
 
 ---
 
@@ -77,9 +83,10 @@ AI-Backend (Proxy + ML)
 ### Branch Protection
 - Pull requests required for all changes
 - CI/CD checks must pass before merge
-- Code review and conversation resolution
+- Code review and conversation resolution required
 - No direct push to main/master branches
 - Admin enforcement (no bypass)
+- Status checks enforced
 
 ### Code Quality
 - Automated testing (CI/CD)
@@ -87,13 +94,15 @@ AI-Backend (Proxy + ML)
 - Type checking (TypeScript, Python type hints)
 - Security scanning
 - Performance monitoring
+- 100% test coverage target
 
 ### Deployment
 - Automated GitHub Actions workflows
-- Azure App Services (backends)
+- Azure App Services (backend APIs)
 - Azure Static Web Apps (frontend)
 - Zero-downtime deployments
 - Environment-based configurations
+- Automated rollback on failure
 
 ---
 
@@ -106,17 +115,18 @@ AI-Backend (Proxy + ML)
 - **Trading API**: https://dev-trading-api.heimdallr.ai
 
 ### Production Environment
-- Coming Soon
+- Coming Soon - Q2 2025
 
 ---
 
 ## Security & Compliance
 
-### Authentication
+### Authentication & Authorization
 - Auth0 enterprise authentication
 - JWT token-based authorization
 - Multi-factor authentication (2FA)
 - Role-based access control (RBAC)
+- Session management with auto-timeout
 
 ### Data Protection
 - AES-256 encryption at rest
@@ -124,31 +134,18 @@ AI-Backend (Proxy + ML)
 - Azure SQL with encryption
 - Secure API key storage
 - Regular security audits
+- Penetration testing
 
 ### Compliance
 - GDPR compliant
 - KVKK (Turkey) compliant
 - Data sovereignty
 - Privacy-first architecture
+- Regular compliance audits
 
 ---
 
-## Contributing
-
-We maintain high code quality standards:
-
-1. Fork the repository
-2. Create a feature branch (`feature/amazing-feature`)
-3. Commit your changes with clear messages
-4. Push to your branch
-5. Open a Pull Request
-6. Wait for CI/CD checks to pass
-7. Address code review feedback
-8. Merge after approval
-
----
-
-## Tech Highlights
+## Infrastructure Highlights
 
 - Organization-level secrets management
 - Centralized branch protection rules
@@ -158,6 +155,18 @@ We maintain high code quality standards:
 - ML model serving infrastructure
 - Database connection pooling
 - Redis caching strategy
+- Auto-scaling infrastructure
+- 99.9% uptime target
+
+---
+
+## Team
+
+This is a **private organization**.
+
+Access is restricted to authorized team members only.
+
+For business inquiries, partnership opportunities, or security reports, please use the contact information below.
 
 ---
 
@@ -167,15 +176,18 @@ We maintain high code quality standards:
 - **Email**: admin@heimdallr.ai
 - **Support**: support@heimdallr.ai
 - **Security**: security@heimdallr.ai
+- **Partnerships**: partnerships@heimdallr.ai
 
 ---
 
 ## License
 
-Proprietary - All Rights Reserved
+**Proprietary - All Rights Reserved**
 
 Copyright 2025 Heimdallr.ai
 
+Unauthorized access, use, or distribution is prohibited.
+
 ---
 
-> Built with passion for crypto traders by the Heimdallr team
+> Built with passion for crypto traders worldwide
