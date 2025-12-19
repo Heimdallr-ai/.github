@@ -39,19 +39,7 @@
 
 ---
 
-## Architecture
 
-### Microservices Architecture
-```
-Frontend (React)
-    |
-    v
-AI-Backend (Proxy + ML)
-    |
-    +---> Auth Backend (Users, Auth, Subscriptions)
-    |
-    +---> Trading Backend (Trading Logic, Strategies)
-```
 
 ### Key Features
 - Multi-backend proxy architecture
